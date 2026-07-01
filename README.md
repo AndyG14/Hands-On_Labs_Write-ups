@@ -1,4 +1,4 @@
-# TryHackMe Writeups
+# Hands-On Labs Writeups
 
 A collection of writeups for rooms completed on TryHackMe as part of my cybersecurity training journey, with a focus on the **SOC Analyst Path** and the **Penetration Testing Path**.
 
