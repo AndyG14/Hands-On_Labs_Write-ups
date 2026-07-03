@@ -1,6 +1,6 @@
 # Blue Team Labs
 
-This section contains hands-on labs focused on detection, monitoring, and incident response.
+This section contains writeups of hands-on labs focused on Blue Team
 
 ## Labs
 
