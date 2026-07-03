@@ -8,8 +8,6 @@
 
 ## Objective
 
-## Objective
-
 Assess the security of a web application by identifying and exploiting common API and web application vulnerabilities in order to demonstrate their impact.
 
 ---
