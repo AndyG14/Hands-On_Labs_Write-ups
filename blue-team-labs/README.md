@@ -6,4 +6,4 @@ This section contains writeups of hands-on labs focused on Blue Team
 
 - [Phishing Analysis](Phishing-Analysis/Phishing-Analysis.md)
 
-*This directory is updated as I progress through new labs.*
+*This directory is updating as I progress through new labs.*
