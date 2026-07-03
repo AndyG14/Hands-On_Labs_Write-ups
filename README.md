@@ -1,24 +1,24 @@
-# Hands-On Labs Writeups
+# CyberSecurity Labs
 
-A collection of writeups for Hnads-on Labs as part of my cybersecurity training journey, with a focus on the **SOC Analyst Path** and the **Penetration Testing Path**.
+A collection of writeups for Hands-on Labs as part of my cybersecurity training journey, with a focus on the **Blue Team** and the **Red Team**.
 
 Each writeup covers the methodology, tools, and reasoning behind the work.
 
-TryHackMe Profile: https://tryhackme.com/p/andrey25g
-LinkedIn: www.linkedin.com/in/andrea-giacometti-475151204
+- TryHackMe Profile: https://tryhackme.com/p/andrey25g
+- LinkedIn: www.linkedin.com/in/andrea-giacometti-475151204
 
 ## Certifications
 - CompTIA Security+
 - TryHackMe SEC0
 - TryHackMe SEC1
 
-## SOC Analyst Labs
-- [Lab 1](soc-level-1/room-1.md)
-- [Lab 2](soc-level-1/room-2.md)
-
-## Penetration Testing Labs
-- [Lab 1](pentest-path/room-1.md)
-- [Lab 2](pentest-path/room-2.md)
+## Blue Team Labs
+- [Blue Team Labs](CyberSecurity_Labs/blue-team-labs)
 
 
-*This repository is updated as I progress through new Labs.*
+## Red Team Labs
+- [Red Team Labs](CyberSecurity_Labs/red-team-labs)
+
+
+
+*This repository is updated as I progress through new Labs and Skills.*
