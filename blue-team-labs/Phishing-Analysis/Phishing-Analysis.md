@@ -16,9 +16,8 @@ Analyze and investigate a suspicious email to identify and extract key artifacts
 ## Skills Demonstrated
 
 - Email Header Analysis
-- Phishing Investigation
+- Phishing Detection and Investigation
 - Attachment Analysis
-- Threat Intelligence
 
 ---
 
@@ -49,17 +48,31 @@ I saved the attachment without opening it, generated its **SHA256** hash using t
 
 ### Email Header Analysis
 
-![Email Header](images/email-header.png)
+![Email Headers Analysis](images/Header_Analyzer.png)
 
-*Description of the evidence.*
+*Using a **Message Header Analyzer** to analyze the email's headers.*
 
 ---
 
-### Attachment Analysis
+### Identifying the IP source
 
-![VirusTotal Analysis](images/attachment-analysis.png)
+![WHOIS](images/WHOIS.png)
 
-*Description of the evidence.*
+*Using **WHOIS** to idenity the owner of source IP.*
+
+---
+
+### Hashsum of the Attachment
+
+![SHA256SUM](images/hashsum_file.png)
+
+*Using **sha256sum** to obtain the SHA256 hash of the attachment*
+
+### Analyize the File's Hash with VirusTotal
+
+![VirusTotal](images/VirusTotal.png)
+
+*Using **VirusTotal** to analyze the suspicious attachment and file type*
 
 ---
 
@@ -73,6 +86,6 @@ I saved the attachment without opening it, generated its **SHA256** hash using t
 
 ## Real-World Relevance
 
-Phishing remains one of the most common initial access techniques used by threat actors.
+Phishing remains one of the most common social engineering techniques used by threat actors to gain initial access or any malicious activity.
 
-The ability to analyze suspicious emails, validate email authentication mechanisms, inspect attachments, and identify indicators of compromise (IOCs) is an essential skill for SOC analysts and incident responders.
+The ability to analyze suspicious emails, validate email authentication mechanisms such as SPF, DKIM, and DMARC, inspect attachments, and identify phishing indicators is a fundamental skill for SOC analysts and Incident Responders. These capabilities help organizations detect phishing attempts early and reduce the risk of compromise.
