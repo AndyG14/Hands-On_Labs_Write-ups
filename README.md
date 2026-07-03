@@ -21,4 +21,4 @@ Each writeup covers the methodology, tools, and reasoning behind the work.
 
 
 
-*This repository is updated as I progress through new Labs and Skills.*
+*This repository is updating as I progress through new Labs and Skills.*
