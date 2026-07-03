@@ -6,4 +6,4 @@ This section contains reports of hands-on labs focused on Red Team
 
 - [API-Pentesting](API-vulnerabilities/api-vulnerabilities.md)
 
-*This directory is updated as I progress through new labs.*
+*This directory is updating as I progress through new labs.*
