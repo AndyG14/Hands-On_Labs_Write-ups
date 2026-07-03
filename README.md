@@ -13,11 +13,11 @@ Each writeup covers the methodology, tools, and reasoning behind the work.
 - TryHackMe SEC1
 
 ## Blue Team Labs
-- [Blue Team Labs](CyberSecurity_Labs/blue-team-labs/README.md)
+- [Blue Team Labs](blue-team-labs/README.md)
 
 
 ## Red Team Labs
-- [Red Team Labs](CyberSecurity_Labs/red-team-labs)
+- [Red Team Labs](red-team-labs)
 
 
 
