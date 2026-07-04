@@ -110,7 +110,7 @@ Finally, I created and tested rules to detect well-known vulnerabilities and att
    *MS17-010 detection rule*
  ![MS17-010 detection rule](images/ms17-010-rule.png)
 
-   *Log4j log filtering to identify the rules activated*
+   *Log4j log filtering to identify the activated rules*
  ![Log4j log filtering to identify the rules activated](images/activated-rules.png)
 
    *Customized Log4j rule for specific size range*
