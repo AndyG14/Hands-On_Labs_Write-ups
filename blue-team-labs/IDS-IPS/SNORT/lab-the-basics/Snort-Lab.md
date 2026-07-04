@@ -33,13 +33,13 @@ investigate a series of traffic data and stop malicious activity under different
 During this lab, I learned how to configure Snort, analyze packet captures and network traffic, execute Snort in different operating modes, and develop custom detection rules to identify malicious network activity.
 As a first step, I verified the installed Snort version and executed it in **Test Mode** to ensure that the configuration file was valid before creating any custom rules.
 
-- [Instance version and configuration validation](images/)
+- [Instance version and configuration validation](images/snort.png)
 
 ### HTTP Traffic Detection
 
 The first exercise focused on creating an IDS rule to detect all HTTP traffic over TCP port **80**.
 
-- [HTTP traffic detection rule](images/...)
+- [HTTP traffic detection rule](images/http-rule.png)
 
 The rule was then tested by running Snort in **IDS Mode** using a packet capture file:
 
@@ -62,7 +62,7 @@ The implemented rules included:
 - FTP logins with a valid username but no password
 - FTP login attempts using the **Administrator** username without a password
 
-- [FTP authentication detection rules](images/...)
+- [FTP authentication detection rules](images/ftp-rules.png)
 
 ---
 
@@ -74,8 +74,9 @@ I also developed rules capable of detecting specific file signatures transmitted
 - GIF files
 - Torrent metafiles
 
-- [File signature detection rules](images/...)
-- [Torrent traffic analysis](images/...)
+- [File signature detection rules](images/png-gif.png)
+- [Torrent detection rule](images/torrent-rule.png)
+- [Torrent traffic analysis](images/torrent-string.png)
 
 ---
 
@@ -83,7 +84,7 @@ I also developed rules capable of detecting specific file signatures transmitted
 
 Part of the lab focused on troubleshooting incorrectly written Snort rules by identifying and correcting syntax errors.
 
-- [Rule troubleshooting examples](images/...)
+- [Rule troubleshooting examples](images/troubleshoot1.png)(images/troubleshoot2.png)(images/troubleshoot3.png)
 
 ---
 
@@ -95,9 +96,9 @@ Finally, I created and tested rules to detect well-known vulnerabilities and att
 - Detection of **Log4Shell (Log4j)** exploitation attempts using custom local rules.
 - Customization of detection rules by filtering packets within a specific size range.
 
-- [MS17-010 detection rule](images/...)
-- [Log4j log filtering to identify the rules activated](images/...)
-- [Customized Log4j rule for specific size range](images/...)
+- [MS17-010 detection rule](images/ms17-010-rule.png)
+- [Log4j log filtering to identify the rules activated](images/activated-rules.png)
+- [Customized Log4j rule for specific size range](images/log4j-rule.png)
   
 
 
