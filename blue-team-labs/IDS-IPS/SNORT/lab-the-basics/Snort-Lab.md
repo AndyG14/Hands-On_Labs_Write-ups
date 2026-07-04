@@ -33,7 +33,7 @@ investigate a series of traffic data and stop malicious activity under different
 During this lab, I learned how to configure Snort, analyze packet captures and network traffic, execute Snort in different operating modes, and develop custom detection rules to identify malicious network activity.
 As a first step, I verified the installed Snort version and executed it in **Test Mode** to ensure that the configuration file was valid before creating any custom rules.
 
-- [Instance version and configuration validation](images/...)
+- [Instance version and configuration validation](images/)
 
 ### HTTP Traffic Detection
 
