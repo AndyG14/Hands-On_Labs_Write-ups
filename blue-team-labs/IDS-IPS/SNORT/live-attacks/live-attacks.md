@@ -36,9 +36,7 @@ Once the log file was created, I parsed it using Snort:
 ![Log Parsing](images/snort-r-log.png)
 
 The inspection revealed a large amount of traffic targeting both **port 80** of the web server and **port 22**.
-
 I then applied log filtering to analyze the captured traffic in greater detail.
-
 The traffic on **port 80** was significantly higher, but after careful analysis, I determined that it was legitimate web browsing traffic.
 
 ![Port 80 Traffic](images/tcp-and-port-80.png)
