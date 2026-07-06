@@ -73,7 +73,7 @@ First, I applied the following filter:
 
 After the analysis, I identified the source and destination involved in the reverse shell connection. I then applied the following filter to confirm my findings:
 
-![Host and Port Filter](images/hostand-port.png)
+![Host and Port Filter](images/host-and-port.png)
 
 Now that I had all the information required to write an appropriate IPS rule, I customized the rule to stop the attack.
 
