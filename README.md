@@ -1,8 +1,6 @@
 # CyberSecurity Labs
 
-A collection of writeups for Hands-on Labs as part of my cybersecurity training journey, with a focus on the **Blue Team** and the **Red Team**.
-
-Each writeup covers the methodology, tools, and reasoning behind the work.
+Hands-on cybersecurity labs documenting my learning journey across **Blue Team** and **Red Team**. Each write-up summarizes the methodology, tools, techniques, and key takeaways to showcase the practical skills I am developing through real-world scenarios and CTF challenges
 
 - TryHackMe Profile: https://tryhackme.com/p/andrey25g
 - LinkedIn: www.linkedin.com/in/andrea-giacometti-475151204
