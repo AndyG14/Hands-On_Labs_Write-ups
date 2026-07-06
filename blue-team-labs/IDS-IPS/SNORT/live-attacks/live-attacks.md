@@ -29,9 +29,7 @@ We are going to use Snort to analyze both live and captured traffic and customiz
 
 ## Scenario 1: Brute-Force Attack
 
-As a first step, I ran Snort in **sniffing mode** to confirm the brute-force attack behavior on the network. After confirming the malicious activity, I ran Snort in **logging mode** to capture the network traffic and generate a log file for further analysis.
-
-Once the log file was created, I parsed it using Snort:
+As a first step, I ran Snort in **sniffing mode** to confirm the brute-force attack behavior on the network. After confirming the malicious activity,
 
 ![Log Parsing](images/snort-r-log.png)
 
@@ -55,6 +53,36 @@ Finally, I executed Snort in **IPS mode** to verify that the custom rule success
 
 ---
 
+## Scenario 2: Reverse Shell
+
+The methodology used in this scenario is quite similar to the previous one.
+
+As a first step, I ran Snort in **Sniff Mode** to confirm the unusual and suspicious outbound traffic.
+
+![Sniff Mode](images/sniff-mode.png)
+
+I noticed suspicious traffic on **port 4444**, which is well known for being commonly used by **Metasploit** reverse shells.
+
+After confirming the anomalous outbound traffic, I ran Snort in **Logging Mode** to capture the network traffic and generate a log file for further analysis.
+
+Once the log file was created, I parsed it using Snort.
+
+First, I applied the following filter:
+
+![TCP and Port Filter](images/tcp-and-port-4444.png)
+
+After the analysis, I identified the source and destination involved in the reverse shell connection. I then applied the following filter to confirm my findings:
+
+![Host and Port Filter](images/hostand-port.png)
+
+Now that I had all the information required to write an appropriate IPS rule, I customized the rule to stop the attack.
+
+![IPS Rule](images/Rshell-rule.png)
+
+Finally, I ran Snort in **IPS Mode** to verify that the malicious activity was successfully blocked.
+
+![IPS in Action](images/rule-test.png)
+
 ## Key Takeaways
 
 - Improved my understanding of how Snort can prevent malicious network activity.
@@ -65,5 +93,5 @@ Finally, I executed Snort in **IPS mode** to verify that the custom rule success
 
 ## Real-World Relevance
 
-Brute-force attacks are among the most common techniques used by threat actors to gain unauthorized access to exposed services. Security analysts rely on Intrusion Detection and Prevention Systems (IDS/IPS) such as Snort to monitor live network traffic, identify malicious behavior, and automatically block attacks before they can compromise critical systems.
+**Brute-force attacks** and **reverse shells** are among the most common techniques used by threat actors to gain unauthorized access to exposed services. Security analysts rely on Intrusion Detection and Prevention Systems (IDS/IPS) such as Snort to monitor live network traffic, identify malicious behavior, and automatically block attacks before they can compromise critical systems.
 
