@@ -1,4 +1,4 @@
-# Lab Title: Snort Challenge: Live Attacks
+# Lab Title: Snort Challenge - Live Attacks
 
 **Platform:** TryHackMe  
 **Category:** Network Analysis / Incident Response / IDS & IPS  
