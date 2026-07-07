@@ -1,7 +1,9 @@
 # Lab Title: 2026-02-28 - TRAFFIC ANALYSIS EXERCISE: EASY AS 123
 
 **Platform:** Malware Traffic Analysis
+
 **Category:** Network Traffic Analysis / Wireshark  
+
 **Difficulty:** Intermediate
 
 ---
