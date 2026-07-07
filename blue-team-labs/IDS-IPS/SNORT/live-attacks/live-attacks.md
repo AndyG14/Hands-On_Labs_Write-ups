@@ -29,7 +29,7 @@ We are going to use Snort to analyze both live and captured traffic and customiz
 
 ## Scenario 1: Brute-Force Attack
 
-As a first step, I ran Snort in **sniffing mode** to confirm the brute-force attack behavior on the network. After confirming the malicious activity, we read file file log with snort:
+As a first step, I ran Snort in **sniffing mode** to confirm the brute-force attack behavior on the network. After confirming the malicious activity, we create a log file with snort and read it:
 
 ![Log Parsing](images/snort-r-log.png)
 
