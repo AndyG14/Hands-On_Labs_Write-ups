@@ -109,7 +109,7 @@ First, I filtered the logs using **Event ID 106**, which records newly created s
 
 Next, I opened the **Task Scheduler** GUI to inspect the task configuration and identify its trigger and associated action:
 
-![Task Trigger](images/trigger-task4.png)
+![Task Trigger](images/task-trigger-task4.png)
 
 The final objective was to determine the exact PowerShell command executed by the scheduled task. I first filtered the TaskScheduler logs using **Event ID 129** to identify when the task started. I then correlated the execution time with the **PowerShell Operational Logs**, allowing me to recover the complete PowerShell command executed by the attacker:
 
