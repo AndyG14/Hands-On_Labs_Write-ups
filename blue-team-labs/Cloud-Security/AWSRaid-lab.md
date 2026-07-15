@@ -1,6 +1,7 @@
 # Lab Title: AWSRaid Lab
 
 **Platform:** Cyberdefenders
+
 **Category:** Cloud Security / Log Analysis 
 
 ---
