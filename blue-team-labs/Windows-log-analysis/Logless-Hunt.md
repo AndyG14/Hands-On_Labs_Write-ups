@@ -1,8 +1,8 @@
 # Lab Title: Logless Hunt (Walkthrough)
 
 **Platform:** TryHackMe  
-**Category:** Windows Log Analysis / Incident Response  
-**Difficulty:** Intermediate
+
+**Category:** Windows Log Analysis 
 
 ---
 
