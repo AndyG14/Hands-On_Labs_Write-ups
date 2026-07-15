@@ -16,7 +16,6 @@ This lab introduces the use of AWS CloudTrail and Splunk for cloud security inve
 
 - AWS CloudTrail Log Analysis
 - Splunk Log Investigation
-- Cloud Incident Response
 
 ---
 
