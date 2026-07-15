@@ -4,7 +4,7 @@ This section contains writeups of hands-on labs focused on Blue Team
 
 ## Labs
 
-- [Phishing Analysis](Phishing-Analysis/Phishing-Analysis.md)
+- [Phishing Analysis](Phishing-Analysis/)
 - [IDS-IPS](IDS-IPS/SNORT/)
 - [Network Traffic Analysis](network-traffic-analysis/)
 - [Windows log analysis](Windows-log-analysis/)
