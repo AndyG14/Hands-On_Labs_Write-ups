@@ -1,8 +1,8 @@
 # Lab Title: "Support"
 
 **Platform:** TryHackMe  
+
 **Category:** Web Security  
-**Difficulty:** Intermediate
 
 ---
 
