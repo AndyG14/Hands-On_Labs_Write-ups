@@ -1,8 +1,9 @@
 # Lab Title: Snort Challenge - The Basics
 
 **Platform:** TryHackMe  
+
 **Category:** Network Analysis / IDS&IPS  
-**Difficulty:** Intermediate
+
 
 ---
 
