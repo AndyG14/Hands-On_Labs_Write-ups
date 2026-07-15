@@ -1,9 +1,8 @@
 # Phishing Analysis
 
 **Platform:** TryHackMe  
-**Room:** The Greenholt Phish  
+ 
 **Category:** Phishing Analysis  
-**Difficulty:** Beginner
 
 ---
 
