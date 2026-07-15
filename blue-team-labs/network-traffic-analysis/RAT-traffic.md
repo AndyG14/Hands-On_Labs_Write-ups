@@ -4,7 +4,6 @@
 
 **Category:** Network Traffic Analysis / Wireshark  
 
-**Difficulty:** Intermediate
 
 ---
 
