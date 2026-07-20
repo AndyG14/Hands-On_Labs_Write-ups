@@ -9,5 +9,6 @@ This section contains writeups of hands-on labs focused on Blue Team
 - [Network Traffic Analysis](network-traffic-analysis/)
 - [Windows log analysis](Windows-log-analysis/)
 - [Cloud Security](Cloud-Security/)
+- [Thrat Analysis](Threat-Analysis/)
   
 *This directory is updating as I progress through new labs.*
